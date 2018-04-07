@@ -1,0 +1,35 @@
+Installing GIT:
+
+# add-apt-repository ppa:git-core/ppa
+# apt update
+# apt install git
+...............................................................................
+
+Vaidating installation:
+
+# git --version
+...............................................................................
+
+To clone GIT on local machine:
+
+# git clone <URL>             ....This will clone in the present working directory 
+# git clone <URL> <path>      ....Create in the destined path
+.................................................................................
+
+Commit changes to the local repo:
+
+git add -A
+git status
+git commit -m "<intended message>"
+
+.................................................................................
+
+Pushing changes to remote repo:
+
+First commit on local repr then,
+git pull origin master                            
+git push origin master
+                              ....origin indicates the current working repo & master indicates the working branch
+..................................................................................
+
+
