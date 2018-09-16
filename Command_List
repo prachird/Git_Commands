@@ -18,7 +18,9 @@ To clone GIT on local machine:
 
 Commit changes to the local repo:
 
-git add -A
+git add -A                       ....................this will commit all files from the folder
+..to add specific files:
+git add [filename] [filename]
 git status
 git commit -m "<intended message>"
 
